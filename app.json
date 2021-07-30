@@ -6,9 +6,9 @@
       "python",
       "proxy"
     ],
-    "website": "https://github.com/ohld/telegram-support-bot",
-    "repository": "https://github.com/ohld/telegram-support-bot",
-    "success_url": "https://github.com/ohld/telegram-support-bot",
+    "website": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
+    "repository": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
+    "success_url": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
     "env": {
       "HEROKU_APP_NAME": {
         "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
@@ -18,6 +18,12 @@
       },
       "TELEGRAM_SUPPORT_CHAT_ID": {
         "description": "Telegram chat_id where the bot will forward all incoming messages. If you want to know your chat_id - add this bot https://t.me/ShowJsonBot to your chat."
+      },
+      "REPLY_TO_THIS_MESSAGE": {
+        "description": "Message text in support chat for support team really reply."
+      },
+      "WRONG_REPLY": {
+        "description": "Answer to support team if they reply to message with hidden forwarding"
       }
     }
 }
