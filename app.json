@@ -19,11 +19,5 @@
       "TELEGRAM_SUPPORT_CHAT_ID": {
         "description": "Telegram chat_id where the bot will forward all incoming messages. If you want to know your chat_id - add this bot https://t.me/ShowJsonBot to your chat."
       },
-      "REPLY_TO_THIS_MESSAGE": {
-        "description": "Message text in support chat for support team really reply."
-      },
-      "WRONG_REPLY": {
-        "description": "Answer to support team if they reply to message with hidden forwarding"
-      }
     }
 }
