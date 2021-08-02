@@ -18,6 +18,6 @@
       },
       "TELEGRAM_SUPPORT_CHAT_ID": {
         "description": "Telegram chat_id where the bot will forward all incoming messages. If you want to know your chat_id - add this bot https://t.me/ShowJsonBot to your chat."
-      },
+      }
     }
 }
