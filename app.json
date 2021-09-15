@@ -6,9 +6,9 @@
       "python",
       "proxy"
     ],
-    "website": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
-    "repository": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
-    "success_url": "https://github.com/rus-ai/telegram-support-bot/tree/deploy",
+    "website": "https://github.com/rus-ai/telegram-support-bot/tree/main",
+    "repository": "https://github.com/rus-ai/telegram-support-bot/tree/main",
+    "success_url": "https://github.com/rus-ai/telegram-support-bot/tree/main",
     "env": {
       "HEROKU_APP_NAME": {
         "description": "The name of your Heroku app. Yes, again. Just copy-paste it!"
